@@ -1,0 +1,107 @@
+body{
+  
+  padding:0px;
+  background:url(b.jpg) no-repeat;
+  background-size:cover;
+   }
+   
+   
+  .login-post{
+  
+    width:200px;
+    padding:50px;
+    border:1px solid #183fab;
+    background: #1432872e;
+  }
+  
+ .logo{
+ 
+  background:url(logo_cabinet.png) no-repeat;   
+  padding:30px;
+  margin:20px;
+
+  
+ }
+ 
+  .login-post button{
+  
+   	background-color: #ffffff; /* #44e644 */
+    border: 2px solid #183fab;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .login-post button:hover{
+    background-color: #183fab;
+    color: white;     
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  
+  .login-post .form-group input{
+  
+    width:300px;    
+    border-bottom:3px solid #183fab;
+
+  
+  }  
+  .login-post .form-group input:hover{
+    width:300px;
+    border-bottom:4px solid #1a7ada;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .login-post{
+   width:425px;
+   padding:1px 50px;
+   border:1px solid #183fab;
+   border-radius: 5%;
+	margin:0 auto;
+ } 
+ 
+ footer{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid #183fab; */
+    background: #2248b3;
+    /* border-radius: 10px 10px 0px 0px;*/
+ } 
+  footer p{
+
+   	text-align: center;
+    margin: 0;
+    padding: 15px 10px;
+    color: #e3e3e3b5;
+ } 
+ 
+ 
+ 
+ 
+ 
+ .text-hidden{
+ 	display:none!important;
+ }
+.text-danger {
+ 	display:block;
+    transition:.4s all ease-in-out;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.result-login p{
+	font-size:14px!important;
+
+}
